@@ -1,7 +1,26 @@
 # palworld-json-server
 
-https://dcimg2.dcinside.co.kr/viewimage.php?id=3dbcdc31eac034a2&no=63f39f2fe8d577a26fabd7e640806b307e5a9c28623940cf25a517329f080c1587095732485d1098b55b14139b0ed918f92cd58d3a857099fd792db08d61f6312d3a02a5f96f
+![image](https://github.com/ldh0308/palworld-json-server/assets/142721325/903366ab-c5b6-43d4-be9b-f7c1605aec16)
 
-# install
+
+# RUN
+```bash
+$ npx json-server db.json
+Press CTRL-C to stop
+Watching db.json...
+
+♡⸜(˶˃ ᵕ ˂˶)⸝♡
+
+Index:
+http://localhost:3000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3000/posts
+http://localhost:3000/comments
+http://localhost:3000/profile
+```
 
 #
