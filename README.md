@@ -1,9 +1,9 @@
-# palworld-json-server
+# 👻 palworld-json-server
 
 ![image](https://github.com/ldh0308/palworld-json-server/assets/142721325/903366ab-c5b6-43d4-be9b-f7c1605aec16)
 
 
-# RUN
+# 🦒 RUN
 ```bash
 $ npx json-server db.json
 Press CTRL-C to stop
@@ -23,5 +23,5 @@ http://localhost:3000/comments
 http://localhost:3000/profile
 ```
 
-# From
+# 🐈‍⬛ From
 https://www.npmjs.com/package/json-server
