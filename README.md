@@ -29,3 +29,8 @@ https://www.npmjs.com/package/json-server
 # DEPLY
 ` $ fly deploy `
 
+# search
+- title 검색
+![image](https://github.com/ldh0308/palworld-json-server/assets/142721325/d47b964a-7d01-4088-a01c-0cc1de71760c)
+
+
