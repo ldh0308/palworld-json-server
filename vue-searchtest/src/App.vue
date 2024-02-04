@@ -1,12 +1,16 @@
 <template>
-    <input v-model="searchQuery" placeholder="검색어를 입력하세요" @input="search">
-    <ul>
-      <li v-for="post in filteredPosts" :key="post.id">Id: {{ post.id }} - Title: {{ post.title }} - Views: {{ post.views }}</li>
+    <form class="d-flex" role="search">  
+    <input class="form-control me-2" v-model="searchQuery" placeholder="타이틀을 입력하세요" @input="search"/>
+    </form><br>
+    <ul class="list-group">
+      <li class="list-group-item" v-for="post in filteredPosts" :key="post.id">
+      Id: {{ post.id }} - Title: {{ post.title }} - Views: {{ post.views }}</li>
     </ul>
 </template>
 
 
 <script setup>
+import NavBarName from './components/NavBar.vue'
 import { ref, onMounted, watch } from 'vue';
 // import axios from 'axios';
 
